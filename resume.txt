@@ -1,13 +1,13 @@
 Sean McGoey
 
-Journalist
+Journalist and Master's degree candidate
 
 smcgoey@umd.edu
 LinkedIn: https://www.linkedin.com/in/seanmcgoey/
 Twitter: https://twitter.com/seanmcgoey
 GitHub: https://github.com/smcgoey
 
-does a cover sentence go here?
+
 
 Experience:
 
@@ -17,7 +17,7 @@ Merkle Inc.
 
 June 2015 - July 2019
 
-I planned and executed digital advertising campaigns for retail, financial services and education clients.
+I planned and executed digital advertising campaigns for retail, financial services and education clients, primarily using the Google advertising suite and Facebook Business Manager. I contributed to the "Digital Bowl," a yearly report analyzing how well (or poorly) Super Bowl advertisers supplemented their expensive TV spots with digital advertising efforts, and covered industry developments for Merkle's Digital Marketing Channels blog.
 
 
 
@@ -27,17 +27,17 @@ Gannett
 
 August 2014 - April 2015
 
-description of role
+I produced all of the editorial content for a mobile trivia game based on news and current events, publishing six quizzes per day in a custom content management system. I also ran Facebook and Twitter accounts for the project.
 
 
 
-Digital Producer
+Digital Producer, High School Sports
 
 WWL-TV
 
 August 2014 - December 2014
 
-description of role
+I ran a standalone high school sports website for a TV station in New Orleans. I published over 200 web articles, recruited a user-generated content network from local high schools and assisted in the production of the station's weekly prep football show. I also filled in on the station's web desk after the departure of a coworker, writing local interest stories for the station's website and cutting video from the morning show.
 
 
 
@@ -47,16 +47,16 @@ Gannett
 
 June 2014 - July 2014
 
-I was responsible for art direction and management of a multidisciplinary creative team, producing niche publication websites and online marketing campaigns. Oversaw design and build of many magazine websites, including Soundoff, Chesapeake Homes, and Maryland Family Magazine.
+I interned with a group of college students and recent graduates, developing new millennial-focused products for Gannett. My team's project, a mobile news trivia game, was selected for further development after the end of the summer program.
 
 
 
 Education:
 
-Master of Journalism, Multi-platform Journalism, University of Maryland, 2020
+Master of Journalism, Multiplatform Journalism, University of Maryland, 2020
 Bachelor of Arts, Economics, Minor in Computer Science, University of Virginia, 2014
 
 
 Skills:
 
-add some skills.
+Audio editing, data analysis in Excel, podcasting, Squarespace, SQL, WordPress
