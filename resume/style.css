@@ -40,9 +40,10 @@ body {
 }
 
 /*job organizations*/
-h4 {
+/*adjusted: originally h4*/
+.organization {
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 /*job dates*/
