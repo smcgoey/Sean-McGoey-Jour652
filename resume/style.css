@@ -7,6 +7,14 @@ body {
   color: #444;
 }
 
+/*added selector for id="container"*/
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
 /*name at top*/
 /*adjusted: originally h1*/
 #name {
