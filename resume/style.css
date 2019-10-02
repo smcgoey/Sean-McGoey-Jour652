@@ -67,6 +67,11 @@ li {
   padding: 0px;
 }
 
+/*added class for education list*/
+#degrees {
+  margin: 5px 0px 0px 0px;
+}
+
 /*added class for items in contact list*/
 .contact-menu {
   display:inline;
