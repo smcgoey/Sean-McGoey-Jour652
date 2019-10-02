@@ -33,7 +33,8 @@ body {
 }
 
 /*job titles*/
-h3 {
+/*adjusted: originally h3*/
+.jobtitle {
   font-size: 1.5em;
   font-weight: 600;
 }
