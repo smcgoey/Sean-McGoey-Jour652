@@ -60,6 +60,18 @@ li {
   font-size: 1em;
 }
 
+/*added class for contact list at top*/
+.menu {
+  text-align:center;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*added class for items in contact list*/
+.contact-menu {
+  display:inline;
+}
+
 /*title at top*/
 /*adjusted: originally strong*/
 #title {
