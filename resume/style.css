@@ -72,6 +72,11 @@ li {
   margin: 5px 0px 0px 0px;
 }
 
+/*added class for skills list*/
+#do {
+  margin: 5px 0px 0px 0px;
+}
+
 /*added class for items in contact list*/
 .contact-menu {
   display:inline;
