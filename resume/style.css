@@ -21,7 +21,11 @@ body {
 }
 
 /*section headers*/
-h2 {
+/*adjusted: originally h2*/
+.sectionheader {
+  margin: 20px 0px 10px 0px;
+  width: 70%;
+  min-width: 300px;
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
