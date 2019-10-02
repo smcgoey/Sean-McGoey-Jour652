@@ -70,3 +70,8 @@ li {
   color: #33485e;
   margin: 20px 0px 0px 0px;
 }
+
+/*added description class*/
+.description{
+  margin: 10px 0px 10px 0px;
+}
