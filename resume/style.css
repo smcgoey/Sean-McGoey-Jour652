@@ -61,8 +61,12 @@ li {
 }
 
 /*title at top*/
-strong {
+/*adjusted: originally strong*/
+#title {
+  text-align: center;
   text-transform: uppercase;
   font-size: 1.5em;
+  font-weight: 600;
   color: #33485e;
+  margin: 20px 0px 0px 0px;
 }
