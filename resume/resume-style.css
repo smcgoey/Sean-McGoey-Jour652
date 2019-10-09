@@ -1,0 +1,128 @@
+body {
+  /*insert general body style here*/
+  font-family: 'Raleway', sans-serif;
+  font-weight:400;
+  color:#010440;
+}
+
+.nav_item {
+  display:inline-block;
+}
+
+#media {
+  /*background-color: rgba(255,255,0,0.4);*/
+  border: 2px dotted #010440;
+  border-collapse: collapse;
+}
+
+#professional {
+  /*background-color: rgba(0,255,0,0.4);*/
+  border: 2px dotted black;
+  border-collapse: collapse;
+}
+
+#education {
+  /*background-color: rgba(0,0,255,0.4);*/
+  border: 2px dotted black;
+  border-collapse: collapse;
+}
+
+#skills {
+  /*background-color: rgba(255,0,0,0.4);*/
+  border: 2px dotted black;
+  border-collapse: collapse;
+}
+
+#clips {
+  /*background-color: rgba(255,100,0,0.4);*/
+  border: 2px dotted black;
+  border-collapse: collapse;
+}
+
+#head_banner {
+
+}
+
+#main_grid {
+  margin-top: 40px;
+}
+
+.sectionhead_left {
+  margin-top:10px;
+  width:100%;
+}
+
+.sectionhead_right {
+  text-align:center;
+  margin-top:10px;
+  width:100%;
+}
+
+#microphone {
+  /*color:hsl(60,50%,50%);*/
+  color:#F2E963;
+}
+
+#briefcase {
+  /*color:hsl(120,50%,50%);*/
+  color:#F2E963;
+}
+
+#grad-cap {
+  /*color:hsl(240,50%,50%);*/
+  color:#F2E963;
+}
+
+#bolt {
+  /*color:hsl(0,50%,50%);*/
+  color:#F2E963;
+}
+
+#newspaper {
+  /*color:hsl(20,50%,50%);*/
+  color:#F2E963;
+}
+
+.description {
+  margin-right: 10px;
+}
+
+.clip-li {
+  margin-right: 20px;
+}
+
+/* unvisited link */
+a:link {
+  color:black;
+}
+
+/* visited link */
+a:visited {
+  color: blue;
+}
+
+/* mouse over link */
+a:hover {
+  color: navy;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
+
+.page-footer {
+    display:block;
+}
+
+.footer-list {
+  background-color:rgba(0,0,0,.25);
+  height:25px;
+  text-align:center;
+}
+
+.footer-li {
+  display:inline-block;
+  font-size:16px;
+  vertical-align:middle;
+}
