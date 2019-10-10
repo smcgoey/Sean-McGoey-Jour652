@@ -5,38 +5,91 @@ body {
   color:#010440;
 }
 
+strong {
+  font-weight:700;
+}
+
 .nav_item {
   display:inline-block;
 }
 
 #media {
   /*background-color: rgba(255,255,0,0.4);*/
-  border: 2px dotted #010440;
-  border-collapse: collapse;
+  border-top: 2px dotted #010440;
+  border-left: 2px dotted #010440;
+  border-right: 2px dotted #010440;
+  border-bottom: 0px;
 }
 
 #professional {
   /*background-color: rgba(0,255,0,0.4);*/
-  border: 2px dotted black;
-  border-collapse: collapse;
+  border-top: 2px dotted #010440;
+  border-left: 2px dotted #010440;
+  border-right: 2px dotted #010440;
+  border-bottom: 0px;
 }
 
 #education {
   /*background-color: rgba(0,0,255,0.4);*/
-  border: 2px dotted black;
-  border-collapse: collapse;
+  border-top: 2px dotted #010440;
+  border-left: 2px dotted #010440;
+  border-right: 2px dotted #010440;
+  border-bottom: 2px dotted #010440;
 }
 
 #skills {
   /*background-color: rgba(255,0,0,0.4);*/
-  border: 2px dotted black;
-  border-collapse: collapse;
+  border-top: 2px dotted #010440;
+  border-left: 0px;
+  border-right: 2px dotted #010440;
+  border-bottom: 0px;
 }
 
 #clips {
   /*background-color: rgba(255,100,0,0.4);*/
-  border: 2px dotted black;
-  border-collapse: collapse;
+  border-top: 2px dotted #010440;
+  border-left: 0px;
+  border-right: 2px dotted #010440;
+  border-bottom: 2px dotted #010440;
+}
+
+@media screen and (max-width: 775px) {
+  #media {
+    /*background-color: rgba(255,255,0,0.4);*/
+    border: 2px dotted #010440;
+  }
+
+  #professional {
+    /*background-color: rgba(0,255,0,0.4);*/
+    border-top: 0px;
+    border-left: 2px dotted #010440;
+    border-right: 2px dotted #010440;
+    border-bottom: 2px dotted #010440;
+  }
+
+  #education {
+    /*background-color: rgba(0,0,255,0.4);*/
+    border-top: 0px;
+    border-left: 2px dotted #010440;
+    border-right: 2px dotted #010440;
+    border-bottom: 2px dotted #010440;
+  }
+
+  #skills {
+    /*background-color: rgba(255,0,0,0.4);*/
+    border-top: 0px;
+    border-left: 2px dotted #010440;
+    border-right: 2px dotted #010440;
+    border-bottom: 2px dotted #010440;
+  }
+
+  #clips {
+    /*background-color: rgba(255,100,0,0.4);*/
+    border-top: 0px;
+    border-left: 2px dotted #010440;
+    border-right: 2px dotted #010440;
+    border-bottom: 2px dotted #010440;
+  }
 }
 
 #head_banner {
@@ -50,38 +103,40 @@ body {
 .sectionhead_left {
   margin-top:10px;
   width:100%;
+  color: #020659;
 }
 
 .sectionhead_right {
   text-align:center;
   margin-top:10px;
   width:100%;
+  color: #020659;
 }
 
-#microphone {
+.icon {
   /*color:hsl(60,50%,50%);*/
   color:#F2E963;
 }
 
+/*#microphone {
+  color:#F2E963;
+}
+
 #briefcase {
-  /*color:hsl(120,50%,50%);*/
   color:#F2E963;
 }
 
 #grad-cap {
-  /*color:hsl(240,50%,50%);*/
   color:#F2E963;
 }
 
 #bolt {
-  /*color:hsl(0,50%,50%);*/
   color:#F2E963;
 }
 
 #newspaper {
-  /*color:hsl(20,50%,50%);*/
   color:#F2E963;
-}
+}*/
 
 .description {
   margin-right: 10px;
