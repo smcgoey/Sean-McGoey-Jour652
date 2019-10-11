@@ -90,6 +90,14 @@ strong {
     border-right: 2px dotted #010440;
     border-bottom: 2px dotted #010440;
   }
+
+  .sectionhead_right {
+    text-align:left;
+    margin-top:10px;
+    width:100%;
+    color: #020659;
+  }
+
 }
 
 #head_banner {
