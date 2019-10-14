@@ -6,7 +6,6 @@ body {
 }
 
 li {
-  font-family: 'Montserrat', sans-sans-serif;
   font-weight: 300;
 }
 
@@ -171,8 +170,7 @@ a:active {
 
 .description {
   margin-right: 10px;
-  font-family: 'Montserrat', sans-sans-serif;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .clip-li {
