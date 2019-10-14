@@ -5,8 +5,34 @@ body {
   color:#010440;
 }
 
-strong {
-  font-weight:700;
+li {
+  font-family: 'Montserrat', sans-sans-serif;
+  font-weight: 300;
+}
+
+h5, h6, strong {
+  font-weight: 700;
+}
+
+/* unvisited link */
+a:link {
+  color:black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: blue;
+}
+
+/* mouse over link */
+a:hover {
+  color: navy;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
 }
 
 .nav_item {
@@ -53,7 +79,28 @@ strong {
   border-bottom: 2px dotted #010440;
 }
 
-@media screen and (max-width: 775px) {
+#social-share {
+  /*background-color: rgba(255,100,0,0.4);*/
+  border-top: 2px dotted #010440;
+  border-left: 2px dotted #010440;
+  border-right: 2px dotted #010440;
+  border-bottom: 2px dotted #010440;
+}
+
+.sectionhead_left {
+  margin-top:10px;
+  width:100%;
+  color: #020659;
+}
+
+.sectionhead_right {
+  text-align:center;
+  margin-top:10px;
+  width:100%;
+  color: #020659;
+}
+
+@media screen and (max-width: 768px) {
   #media {
     /*background-color: rgba(255,255,0,0.4);*/
     border: 2px dotted #010440;
@@ -91,9 +138,18 @@ strong {
     border-bottom: 2px dotted #010440;
   }
 
+  #social-share {
+    /*background-color: rgba(255,100,0,0.4);*/
+    border-top: 0px;
+    border-left: 2px dotted #010440;
+    border-right: 2px dotted #010440;
+    border-bottom: 2px dotted #010440;
+  }
+
   .sectionhead_right {
     text-align:left;
     margin-top:10px;
+    margin-left: 10px;
     width:100%;
     color: #020659;
   }
@@ -108,70 +164,24 @@ strong {
   margin-top: 40px;
 }
 
-.sectionhead_left {
-  margin-top:10px;
-  width:100%;
-  color: #020659;
-}
-
-.sectionhead_right {
-  text-align:center;
-  margin-top:10px;
-  width:100%;
-  color: #020659;
-}
-
 .icon {
   /*color:hsl(60,50%,50%);*/
   color:#F2E963;
 }
 
-/*#microphone {
-  color:#F2E963;
-}
-
-#briefcase {
-  color:#F2E963;
-}
-
-#grad-cap {
-  color:#F2E963;
-}
-
-#bolt {
-  color:#F2E963;
-}
-
-#newspaper {
-  color:#F2E963;
-}*/
-
 .description {
   margin-right: 10px;
+  font-family: 'Montserrat', sans-sans-serif;
+  font-weight: 300;
 }
 
 .clip-li {
   margin-right: 20px;
 }
 
-/* unvisited link */
-a:link {
-  color:black;
-}
-
-/* visited link */
-a:visited {
-  color: blue;
-}
-
-/* mouse over link */
-a:hover {
-  color: navy;
-}
-
-/* selected link */
-a:active {
-  color: yellow;
+.education-list {
+  margin-left:10px;
+  margin-right: 20px;
 }
 
 .page-footer {
