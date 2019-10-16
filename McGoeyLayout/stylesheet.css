@@ -1,4 +1,66 @@
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 24px;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 13px;
+}
+
+li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 13px;
+  list-style-image: url("images/football-ball-solid.svg");
+  list-style-type: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+.story-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  max-width: 900px;
+}
+
+
+
+blockquote {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: italic;
+  color: hsl(345, 100%, 15%);
+  padding-left: 10px;
+  border-left: 1px dotted #696969;
+}
+
+.caption {
+  font-size: 11px;
+  font-style: italic;
+  color:#696969;
+  margin-top: 2px;
+  text-align: center;
+}
+
+.related_items {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
 #content {
   margin: 0 auto;
-  width: 900px;
+  width: 100%
+  max-width: 900px;
+}
+
+#byline, #date {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-style: italic;
 }
