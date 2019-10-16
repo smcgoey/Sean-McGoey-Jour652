@@ -13,6 +13,18 @@ h5, h6, strong {
   font-weight: 700;
 }
 
+.company-img-left {
+  width: 150px;
+  float: left;
+  padding-right: 20px;
+}
+
+.company-img-right {
+  width: 150px;
+  float: right;
+  padding-left: 20px;
+}
+
 /* unvisited link */
 a:link {
   color:black;
@@ -105,6 +117,7 @@ a:active {
 .sectionhead {
   margin-top:10px;
   margin-left: 5px;
+  margin-bottom: 10px;
   width:100%;
   color: #020659;
 }
