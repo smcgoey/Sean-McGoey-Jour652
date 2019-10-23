@@ -1,0 +1,137 @@
+/*main background color and default font size*/
+body {
+  background-color: #ECECEC;
+  font-size: 12px;
+}
+
+/*centering container and setting left/right padding*/
+#container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/*formatting h1: main headline*/
+h1 {
+  font-family: Georgia, serif;
+  font-size: 36px;
+  font-weight: 900;
+  color: #DE3A18;
+  margin-bottom: 5px;
+}
+
+/*formatting h2: subheads*/
+h2 {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  font-style: italic;
+}
+
+/*formatting h4: burner names*/
+h4 {
+  font-family: Georgia, serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/*formatting for byline box*/
+#byline {
+  font-family: Georgia, serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 50%;
+  padding-bottom: 5px;
+}
+
+/*general paragraph font*/
+p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/*padding list and using fire icon as bullet points*/
+ul {
+  padding-left: 15px;
+  list-style-image: url("images/fire-alt-solid.svg");
+}
+
+/*setting font and increasing line spacing for list items*/
+li {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+/*remove underline from links and make them black*/
+a:link {
+  text-decoration: none;
+  color: #000;
+}
+
+/*underline links on hover and make them orange-red*/
+a:hover {
+  text-decoration: underline;
+  color: #DE3A18;
+}
+
+/*bolding questions in "meet the burners" section*/
+p.question {
+  font-weight: 600;
+}
+
+/*general image styling*/
+img {
+  width: 80%;
+  max-width: 1500px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/*styling image captions to match width/margins of images*/
+p.caption {
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  font-style: italic;
+  color: rgba(0,0,0,.7);
+  width: 80%;
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*specific styling for banner*/
+#banner {
+  width: 100%;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/*pull quote background style*/
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #DE3A18;
+  margin: 20px;
+  padding: 5px 20px 5px 20px;
+}
+
+/*style for main quote attribution*/
+.quote {
+  color: #DE3A18;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*style for pull quote attribution*/
+.attribution {
+  color: #000;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  font-style: italic;
+}
