@@ -41,15 +41,17 @@ body {
   width: 150px;
   float: left;
   padding-right: 20px;
+  padding-bottom: 5px;
 }
 
 .company-img-right {
   width: 150px;
   float: right;
   padding-left: 20px;
+  padding-bottom: 5px;
 }
 
-h5, h6, strong {
+h4, h5, strong {
   font-weight: 500;
 }
 
@@ -77,8 +79,12 @@ a:hover {
   text-decoration: underline;
 }
 
-.clip-li, .education-list {
+.clip-li {
   margin-right: 20px;
+}
+
+.education-list {
+  margin-right: 10px;
 }
 
 .footer-list {
