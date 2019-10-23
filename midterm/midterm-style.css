@@ -124,7 +124,7 @@ blockquote {
 .quote {
   color: #DE3A18;
   font-family: Georgia, serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -132,6 +132,6 @@ blockquote {
 .attribution {
   color: #000;
   font-family: Georgia, serif;
-  font-size: 16px;
+  font-size: 14px;
   font-style: italic;
 }
