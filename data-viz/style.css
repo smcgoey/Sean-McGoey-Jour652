@@ -1,0 +1,79 @@
+.headline {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.byline {
+  font-size: 1.5em;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+}
+
+p {
+  text-align: left;
+  line-height: 180%;
+}
+
+p.photocaption {
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: .85em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+  width: 80%;
+  max-width: 1000px;
+  padding-bottom: 10px;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+  max-width: 1000px;
+  padding-top: 10px;
+}
+
+img.heroimage {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 95%;
+  max-width: 1600px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.chapter {
+  border-left: 1px dashed;
+  border-color: rgba(0, 0, 0, 0.5);
+  padding-left: 10px;
+}
+
+.chaptertitle {
+  font-style: italic;
+  color: darkred;
+}
+
+.chaptertext {
+  color: red;
+}
+
+#pagefooter {
+  margin-top: 20px;
+  text-align: center;
+  color:#fff;
+  background-color: rgba(0,0,0,.8);
+  width: 100%;
+}
+
+.footertext {
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+}
