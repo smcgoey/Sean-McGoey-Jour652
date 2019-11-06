@@ -5,14 +5,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>WE'LL TITLE IT LIVE</title>
+  <title>School shooting data visualization</title>
   <!-- meta elements -->
-  <meta name="description" content="description">
+  <meta name="description" content="Graphic renderings of school shootings">
   <meta name="author" content="Sean McGoey">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!-- FontAwesome CSS -->
-  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
   <!-- Load c3.css -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
   <!-- Load our CSS -->
@@ -24,106 +22,89 @@
 
 <body>
 
-  <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Sean McGoey</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <!-- probably not going to use the active class, will focus on nav-item -->
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <!-- navbar dropdown *DON'T NECESSARILY WANT TO USE, BUT MAY USE WITH STORY MAP -->
-        <li class="nav-item dropdown">
-          <!-- item to open dropdown -->
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-           Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <!-- either don't use any dividers or use dividers between every item -->
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-      <!-- navbar search *WILL ALMOST CERTAINLY REMOVE THIS -->
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
-
-  <!-- jumbotron unit -->
-  <!-- <div class="jumbotron">
-   <h1 class="display-4">Hello, world!</h1>
-   <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-   <hr class="my-4">
-   <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-   <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-  </div> -->
-
   <!-- container grid -->
   <div class="container">
-
-    <!-- headline (h1) and byline (h2) -->
-    <h1 class="headline">HEADLINE, FOOLS</h1>
-    <h2 class="byline">by me, ya dummy</h2>
-
-    <!-- hero image -->
-    <img class="heroimage" src="cave-story.png" alt="WHAT'S UP, MOTHERJAMMERS, THIS IS WHAT WE CALL A HERO IMAGE">
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien pellentesque habitant morbi tristique senectus. Sit amet luctus venenatis lectus magna fringilla. Condimentum id venenatis a condimentum. Hac habitasse platea dictumst quisque sagittis purus sit. Cursus sit amet dictum sit amet justo donec enim. Gravida neque convallis a cras. Adipiscing at in tellus integer feugiat scelerisque. Ultrices dui sapien eget mi proin sed libero. Ullamcorper sit amet risus nullam eget. Ut eu sem integer vitae justo. Elit at imperdiet dui accumsan sit amet nulla facilisi. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi.</p>
-
-    <p>Cursus risus at ultrices mi. Ut etiam sit amet nisl purus in. Sit amet porttitor eget dolor morbi non arcu risus quis. Auctor augue mauris augue neque gravida in fermentum. Malesuada bibendum arcu vitae elementum curabitur vitae. Sit amet mattis vulputate enim nulla aliquet. Sit amet est placerat in egestas erat. Vitae tempus quam pellentesque nec nam aliquam sem. Dignissim enim sit amet venenatis urna. Aliquet enim tortor at auctor urna nunc id cursus. Sit amet purus gravida quis blandit. Lectus mauris ultrices eros in cursus turpis. Morbi quis commodo odio aenean sed adipiscing diam donec adipiscing.</p>
-
-    <!-- defined chapter/section -->
-    <div class="chapter">
-      <h3 class="chaptertitle">SOME SECTIONS ARE NORMAL. SOME ARE SPECIAL. THIS IS A SPECIAL SECTION.</h3>
-      <p class="chaptertext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien pellentesque habitant morbi tristique senectus. Sit amet luctus venenatis lectus magna fringilla. Condimentum id venenatis a condimentum. Hac habitasse platea dictumst quisque sagittis purus sit. Cursus sit amet dictum sit amet justo donec enim. Gravida neque convallis a cras. Adipiscing at in tellus integer feugiat scelerisque. Ultrices dui sapien eget mi proin sed libero. Ullamcorper sit amet risus nullam eget. Ut eu sem integer vitae justo. Elit at imperdiet dui accumsan sit amet nulla facilisi. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi.</p>
-      <p class="chaptertext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien pellentesque habitant morbi tristique senectus. Sit amet luctus venenatis lectus magna fringilla. Condimentum id venenatis a condimentum. Hac habitasse platea dictumst quisque sagittis purus sit. Cursus sit amet dictum sit amet justo donec enim. Gravida neque convallis a cras. Adipiscing at in tellus integer feugiat scelerisque. Ultrices dui sapien eget mi proin sed libero. Ullamcorper sit amet risus nullam eget. Ut eu sem integer vitae justo. Elit at imperdiet dui accumsan sit amet nulla facilisi. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi.</p>
-      <p class="chaptertext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien pellentesque habitant morbi tristique senectus. Sit amet luctus venenatis lectus magna fringilla. Condimentum id venenatis a condimentum. Hac habitasse platea dictumst quisque sagittis purus sit. Cursus sit amet dictum sit amet justo donec enim. Gravida neque convallis a cras. Adipiscing at in tellus integer feugiat scelerisque. Ultrices dui sapien eget mi proin sed libero. Ullamcorper sit amet risus nullam eget. Ut eu sem integer vitae justo. Elit at imperdiet dui accumsan sit amet nulla facilisi. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi.</p>
+    <br>
+    <div class="graphic-container">
+      <h2>Examining the carnage.</h2>
+      <p><em>School shooting incidents and injuries are on the rise, but deaths don't always follow</em></p>
+      <br>
+      <div id="killedByYearChart"></div>
     </div>
-
-    <!-- standard image and caption -->
-    <img src="soups.jpg" alt="IT'S SOME SOUPS, FRIENDS">
-    <p class="photocaption">Here's the caption for this photo. (Photo: somebody took this sometime and somewhere)</p>
-
-    <!-- Grid -->
-    <div class="row">
-      <div class="col-md-4" style="background-color: rgba(255,0,0,0.4)">
-        <h3 style="text-align: center; margin-top: 10px">THIS IS</h3>
-        <p style="text-align:center; margin-top: 10px">Background colors used as a</p>
-      </div>
-      <div class="col-md-4" style="background-color: rgba(0,255,0,0.4)">
-        <h3 style="text-align: center; margin-top: 10px">A GRID,</h3>
-        <p style="text-align:center; margin-top: 10px">placeholder to help assess how</p>
-      </div>
-      <div class="col-md-4" style="background-color: rgba(0,0,255,0.4)">
-        <h3 style="text-align: center; margin-top: 10px">Y'ALL</h3>
-        <p style="text-align:center; margin-top: 10px">the grid is rendering in real time.</p>
-      </div>
+    <br>
+    <div class="graphic-container">
+      <h2>Where do school shootings occur?</h2>
+      <p><em>Nearly half of school shootings take place in cities</em></p>
+      <br>
+      <div id="shootingsLocationChart"></div>
     </div>
-
+    <br>
+    <div class="graphic-container">
+      <h2>What race are school shooters likely to be?</h2>
+      <p><em>Almost 60% of school shooters are white</em></p>
+      <br>
+      <div id="shooterRaceChart"></div>
+    </div>
+    <br>
+    <p><em>Source for all charts: Data collected by The Washington Post</em><p>
   </div>
 
-  <div id="pagefooter">
-    <footer>
-      <p class="footertext">&copy;2019 Sean McGoey (maybe someday I'll figure out how to snap this to the very bottom of the page.)</p>
-    </footer>
-  </div>
+  <!-- c3 script for charts-->
+  <script type="text/javascript">
+    //LINE CHART
+    var chart = c3.generate({
+      bindto: '#killedByYearChart',
+      data: {
+        x: 'x',
+        columns: [
+          ['x', 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
+          ['Number of deaths', 14, 4, 5, 1, 5, 3, 9, 9, 1, 5, 1, 3, 2, 32, 3, 6, 0, 2, 5, 21],
+          ['Number of injuries', 35, 3, 22, 7, 7, 9, 17, 16, 17, 5, 4, 6, 9, 8, 13, 14, 2, 18, 15, 44],
+          ['Number of incidents', 7, 12, 13, 5, 11, 9, 13, 15, 10, 9, 9, 9, 7, 11, 13, 16, 7, 13, 14, 12],
+        ]
+      },
+      color: {
+        pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+      }
+    });
+    //BAR CHART
+    var chart2 = c3.generate({
+      bindto: '#shootingsLocationChart',
+      data: {
+        columns: [
+          ['City', 101],
+          ['Suburb', 58],
+          ['Town', 24],
+          ['Rural', 31],
+        ],
+        type: 'bar'
+      },
+      color: {
+        pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895', '#fae255', '#af3d46', '#f8bb63', '#818281']
+      }
+    });
+    //PIE CHART
+    var chart3 = c3.generate({
+      bindto: '#shooterRaceChart',
+      data: {
+        // iris data from R
+        columns: [
+          ['Asian', 0.95],
+          ['American Indian', 2.86],
+          ['Black', 33.33],
+          ['Hispanic', 5.71],
+          ['White', 57.14],
+        ],
+        type : 'pie',
+        onclick: function (d, i) { console.log("onclick", d, i); },
+        onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+        onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+      },
+      color: {
+        pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+      }
+    });
+  </script>
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
