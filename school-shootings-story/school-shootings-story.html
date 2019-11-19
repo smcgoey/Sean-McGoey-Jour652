@@ -99,9 +99,23 @@
         <p class="chaptertext">131 people have been killed in school shooting incidents in the United States since the Columbine massacre in 1999. The two deadliest years since have been 2012, when 26 people were killed at Sandy Hook Elementary School, and 2018, when 21 people were killed at Parkland High School. The chart below compared the number of people killed, the number of the people injured and the number of incidents by year since 1999.</p>
         <p><strong>graphic: killed/injured by year - multiple line graph</strong></p>
         <p class="chaptertext">Most school shootings are targeted, seeking to harm a specific individual or group. Over 60% of shootings fall into this category, followed by indiscriminate shootings and accidental. See the chart below for more details.</p>
-        <p><strong>graphic: shooting type bar chart</strong></p>
+        <!-- Graphic: shootings by type (bar chart) -->
+        <div class="graphic-container">
+          <h2>Shootings by type</h2>
+          <p>Targeted shootings are by far the most common, accounting for over 60 percent of school shootings by type.</p>
+          <div id="shootingsByTypeChart"></div>
+          <em>Source: Data collected by The Washington Post</em>
+        </div>
+        <!-- END shootings by type bar chart -->
         <p class="chaptertext">In addition, a school resource officer was not present at the vast majority of school shooting incidents. According to the Washington Post data, officers were present in only 35 percent of incidents.</p>
-        <p><strong>graphic: resource officer pie chart</strong></p>
+        <!-- Graphic: resource officer presence (pie chart) -->
+        <div class="graphic-container">
+          <h2>How often were resource officers present?</h2>
+          <p>School resource officers were commonly not present at the scene of school shooting incidents.</p>
+          <div id="resourceOfficersChart"></div>
+          <em>Source: Data collected by The Washington Post</em>
+        </div>
+        <!-- END resource officer pie chart -->
         <p class="chaptertext">The presence of a school resource officer is widely seen as a positive security measure, though has produced mixed results in the past. A single school resource officer is credited with stopping an incident at a Great Falls High School in Maryland in 2018 after firing at the shooter. A school resource officer was widely criticized, and later resigned, for his behavior during the Parkland High School shooting in 2018, when he was accused of staying outside of the school during the rampage.</p>
         <p class="chaptertext">The surviving victims of school shootings are increasingly putting pressure on state and national legislators to pass stricter gun control laws and take action on mass shootings. This video from The New York Times features school shooting survivors talking about their desire to see action taken by lawmakers.</p>
         <iframe class="video-embed" title="New York Times Video - Embed Player" width="480" height="321" frameborder="0" scrolling="no" allowfullscreen="true" marginheight="0" marginwidth="0" id="nyt_video_player" src="https://www.nytimes.com/video/players/offsite/index.html?videoId=100000005743406"></iframe>
@@ -174,6 +188,48 @@
         pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
       }
     });
+
+    //CHART 2
+    var chart2 = c3.generate({
+      bindto: '#shootingsByTypeChart',
+      data: {
+        columns: [
+          ['Targeted', 130],
+          ['indiscriminate', 42],
+          ['Accidental', 25],
+          ['Targeted and indiscriminate', 5],
+          ['Public suicide', 4],
+          ['Unclear', 3],
+          ['hostage suicide', 2],
+          ['Accidental or targeted', 2],
+          ['Public suicide (attempted)', 1]
+        ],
+        type: 'bar'
+      },
+      color: {
+        pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895', '#fae255', '#af3d46', '#f8bb63', '#818281']
+      }
+    });
+
+    //CHART 3
+    var chart3 = c3.generate({
+      bindto: '#resourceOfficersChart',
+      data: {
+        // iris data from R
+        columns: [
+          ['Present', 35],
+          ['Not present', 65],
+        ],
+        type : 'pie',
+        onclick: function (d, i) { console.log("onclick", d, i); },
+        onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+        onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+      },
+      color: {
+        pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+      }
+    });
+
   </script>
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

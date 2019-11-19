@@ -196,6 +196,12 @@ h4 {
   margin-right: 25px;
 }
 
+em {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 /* why can't I get the footer text to center within the block? */
 #pagefooter {
   height: 100px;
