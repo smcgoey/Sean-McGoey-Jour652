@@ -20,9 +20,10 @@ a:visited {
 
 .icon {
   width: 15px;
-  display: inline-block;
+  display: inline;
   margin-left: 3px;
   margin-right: 3px;
+  padding-bottom: 10px;
 }
 
 .intro {
@@ -119,6 +120,7 @@ ul.navbar-nav {
   width:100%;
   max-width:900px;
   margin:0 auto;
+  text-align: center;
   padding-bottom:30px;
   font-family: 'Montserrat', sans-serif;
   color:#999;
@@ -136,6 +138,14 @@ ul.navbar-nav {
 
 .graphic-container h2 {
   font-size: 2em;
+}
+
+.video-embed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-bottom: 20px;
 }
 
 img {
@@ -157,6 +167,34 @@ img.heroimage {
   padding-bottom: 30px;
 }
 
+.data-box {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+  max-width: 900px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background-color: #e8e8e8;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+
+}
+
+.data-box p, h4 {
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.data-link {
+  margin-left: 25px;
+  margin-right: 25px;
+}
 
 /* why can't I get the footer text to center within the block? */
 #pagefooter {
