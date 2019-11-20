@@ -2,6 +2,10 @@ body {
   font-family: 'PT Serif', serif;
 }
 
+.container {
+  width: 90%;
+}
+
 a {
   text-decoration: none;
 }
@@ -132,6 +136,7 @@ ul.navbar-nav {
   font-family: 'Montserrat', sans-serif;
   margin:0 auto;
   margin-bottom: 20px;
+  width: 90%;
 }
 
 .graphic-container h2 {
