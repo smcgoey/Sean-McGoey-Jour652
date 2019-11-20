@@ -89,11 +89,9 @@ ul.navbar-nav {
   text-align: center;
 }
 
-/* .chapter {
-  border-left: 1px dashed;
-  border-color: rgba(0, 0, 0, 0.5);
-  padding-left: 10px;
-} */
+.data-box {
+  padding-top: 20px;
+}
 
 .chapter-headline {
   font-family: 'Montserrat', sans-serif;
@@ -208,10 +206,16 @@ em {
   padding: 25px;
   width: 100%;
   background-color: #000;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif;
   text-align: center;
-  color:#fff;
+  color:#fff; */
   position: absolute;
   margin-bottom: 0px;
   display: block;
+}
+
+#pagefooter p {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color:#fff;
 }
