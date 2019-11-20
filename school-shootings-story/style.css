@@ -31,12 +31,15 @@ a:visited {
 }
 
 .intro {
-  Set to Montserrat with a backup of sans-serif, font-size is 1.25em, max-width is 800px. Center the whole block of text with a top and bottom margin of 25px.
   font-family: 'Montserrat', sans-serif;
   font-size: 1.25em;
   text-align: center;
   margin-top: 25px;
   margin-bottom: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
 }
 
 p{
@@ -71,8 +74,8 @@ ul.navbar-nav {
 }
 
 .hero-image {
-  width: 100;
-  max-width: 900px;
+  width: 100%;
+  max-width: 1000px;
   display: block;
   margin-left: auto;
   margin-right: auto;
