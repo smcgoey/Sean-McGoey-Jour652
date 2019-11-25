@@ -1,20 +1,80 @@
-.headline {
-  font-size: 3em;
-  font-weight: 700;
-  text-align: center;
-  margin-top: 10px;
+body {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-weight: 300;
 }
 
-.byline {
-  font-size: 1.5em;
-  font-weight: 400;
+.bg-dark {
+ background:#000 !important;
+}
+
+ul.navbar-nav {
+ margin-right:50%;
+}
+
+.red {
+  color: #870000;
+}
+
+.graphic-container {
+  width: 100%;
+  padding-top:15px;
+  padding-bottom:15px;
+  border-top:1px dashed #cdcdcd;
+  border-bottom:1px dashed #cdcdcd;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.graphic-container h2 {
+  font-size: 2em;
+}
+
+.attribution {
+  padding-top: 10px;
+  margin-bottom: 0;
+  font-size: .8em;
+  color: rgba(0, 0, 0, 0.5);
   font-style: italic;
   text-align: center;
 }
 
+.nav-link:hover {
+  color: #BA0000 !important;
+}
+
+.navbar {
+ font-family: 'Raleway', Helvetica, Arial, sans-serif; !important;
+}
+
+.navbar-brand {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif; !important;
+  color: #fff; !important;
+  font-size: 1.25em; !important;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+}
+
+.byline {
+  font-size: 1.15em;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+}
+
 p {
   text-align: left;
-  line-height: 180%;
+  line-height: 150%;
 }
 
 p.photocaption {
@@ -45,35 +105,60 @@ img.heroimage {
   display: block;
   width: 95%;
   max-width: 1600px;
-  padding-top: 10px;
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.chapter {
+/* .chapter {
   border-left: 1px dashed;
   border-color: rgba(0, 0, 0, 0.5);
   padding-left: 10px;
+} */
+
+.divider {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.chaptertitle {
-  font-style: italic;
-  color: darkred;
+.icon {
+  color: #BA0000;
+}
+
+.chapter-headline {
+  font-family: 'PT Serif', Georgia, serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  /* font-style: italic; */
+  padding-top: 20px;
+  width: 100%;
+  color: #870000;
+  margin-bottom: 20px;
 }
 
 .chaptertext {
-  color: red;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  color: #000;
 }
 
 #pagefooter {
-  margin-top: 20px;
-  text-align: center;
-  color:#fff;
-  background-color: rgba(0,0,0,.8);
+  height: 50px;
+  padding-bottom: 0px;
   width: 100%;
+  background-color: #000;
+  position: absolute;
+  margin-bottom: 0px;
+  padding-top: 15px;
+  margin-top: 25px;
+  display: block;
 }
 
-.footertext {
+#pagefooter p {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-size: 1em;
   text-align: center;
-  height: 40px;
-  line-height: 40px;
+  color:#fff;
 }
